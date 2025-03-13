@@ -3,9 +3,11 @@ import styles from "./Header.module.scss";
 import logo from "../assets/images/logo.svg";
 import arrow from "../assets/images/dropdown-arrow.svg";
 import TopStrip from "./Topstrip";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header: React.FC = () => {
+  const location = useLocation();
+  console.log(location.pathname);
   const [headerHeight, setHeaderHeight] = useState(0);
   const [arrowActive, setArrowActive] = useState<{ [key: string]: boolean }>(
     {}
@@ -47,7 +49,10 @@ const Header: React.FC = () => {
               onMouseEnter={() => handleMouseEnter("about")}
               onMouseLeave={() => handleMouseLeave("about")}
             >
-              <Link to="/about">
+              <Link
+                to="/about"
+                className={location.pathname === "/about" ? styles.active : ""}
+              >
                 About Us
                 <span
                   className={arrowActive["about"] ? styles.rotateArrow : ""}

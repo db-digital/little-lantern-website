@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./OurSpace.component.module.scss";
 import OurSpaceSliderComponent from "./OurSpaceSlider.component";
+import EducationComponent from "./Education.component";
 const OurSpaceComponent: React.FC = () => {
   return (
     <div className={styles.container}>
@@ -13,6 +14,7 @@ const OurSpaceComponent: React.FC = () => {
           confidence, independence, and a deep love for learning in every child.
         </p>
         <OurSpaceSliderComponent />
+        <EducationComponent />
       </div>
     </div>
   );
