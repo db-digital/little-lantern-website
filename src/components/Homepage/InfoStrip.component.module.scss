@@ -1,0 +1,35 @@
+.container {
+  display: block;
+  background: #fff1f7;
+  padding: 40px 10px;
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 10px 0px;
+  }
+  .boxContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .box {
+      display: block;
+      .iconBox {
+        display: block;
+        width: 90px;
+        margin: 0px auto;
+      }
+      .text {
+        display: block;
+        padding-top: 12px;
+        text-align: center;
+        color: #7771d7;
+        text-align: center;
+        font-family: "Nunito Sans";
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: -0.4px;
+      }
+    }
+  }
+}
