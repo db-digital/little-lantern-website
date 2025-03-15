@@ -35,9 +35,11 @@
       font-size: 16px;
       text-decoration: none;
       transition: transform 0.3s ease-in-out;
-    }
-    .exploreBtn:hover {
-      transform: scale(1.05);
+      border: 1.5px solid #f57a3e;
+      &:hover {
+        background: none;
+        color: #f57a3e;
+      }
     }
   }
   .rightBox {

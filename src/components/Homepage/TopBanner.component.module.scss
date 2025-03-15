@@ -45,6 +45,11 @@
           text-decoration: none;
           transition: transform 0.3s ease-in-out;
           border: 1.5px solid #f57a3e;
+          &:hover {
+            background: none;
+            border: 1.5px solid #fff;
+            color: #fff;
+          }
         }
         .whiteCta {
           display: block;
@@ -58,6 +63,11 @@
           transition: transform 0.3s ease-in-out;
           border: 1.5px solid #fff;
           margin-left: 20px;
+          &:hover {
+            background: #f57a3e;
+            border: 1.5px solid #f57a3e;
+            color: #fff;
+          }
         }
       }
     }
