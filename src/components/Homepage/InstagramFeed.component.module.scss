@@ -79,3 +79,22 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 20px;
+    .mainTitle {
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.96px;
+      text-align: center;
+    }
+    .feedBox {
+      display: block;
+      max-width: 100%;
+      margin: 28px auto;
+    }
+  }
+}

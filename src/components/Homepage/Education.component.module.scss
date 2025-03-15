@@ -25,3 +25,33 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+    .title {
+      padding: 40px 40px 0px 40px;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 35px;
+      letter-spacing: -0.96px;
+    }
+    .imagesBox {
+      padding-top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      .box {
+        display: none;
+        img {
+          display: block;
+        }
+      }
+      .box:nth-child(2) {
+        padding: 0px 10px;
+        display: block;
+      }
+    }
+  }
+}

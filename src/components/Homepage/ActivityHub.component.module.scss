@@ -88,3 +88,64 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    .mainTitle {
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -0.96px;
+    }
+    .description {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+    }
+    .imageBox {
+      display: block;
+      margin: 0px auto;
+      width: 100%;
+      .left {
+        img {
+          width: 100%;
+          display: block;
+        }
+      }
+      .right {
+        display: none;
+      }
+      .leftIcon {
+        display: none;
+      }
+      .rightIcon {
+        display: none;
+      }
+    }
+    .btnBox {
+      display: flex;
+      justify-content: center;
+      .cta {
+        display: inline-flex;
+        border-radius: 12px;
+        background: #f57a3e;
+        color: #fff;
+        text-align: center;
+        font-family: "Chillax", sans-serif;
+        font-size: 16px;
+        padding: 16px 20px;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        border: solid 2px #f57a3e;
+      }
+      .cta:hover {
+        background: #fff;
+        color: #f57a3e;
+      }
+    }
+  }
+}

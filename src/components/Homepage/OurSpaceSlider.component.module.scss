@@ -48,3 +48,47 @@
     min-width: 890px;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    background: #e8fbff;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    .leftBox {
+      display: block;
+      max-width: 100%;
+      min-width: 100%;
+      order: 2;
+      text-align: center;
+      .mainTitle {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.96px;
+        text-align: center;
+        padding-top: 28px;
+      }
+      p {
+        color: #545454;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        padding: 8px;
+      }
+      .exploreBtn {
+        display: inline-flex;
+        margin-top: 16px;
+      }
+    }
+    .rightBox {
+      display: block;
+      max-width: 100%;
+      min-width: 100%;
+      order: 1;
+    }
+  }
+}

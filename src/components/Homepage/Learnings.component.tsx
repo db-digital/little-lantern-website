@@ -39,6 +39,9 @@ const LearningsComponent: React.FC = () => {
               </li>
             </ul>
           </div>
+          <Link className={styles.ctaMobile} to="/">
+            Explore More
+          </Link>
         </div>
       </div>
     </div>

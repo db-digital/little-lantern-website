@@ -97,3 +97,31 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 20px;
+    .mainTitle {
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px; /* 100% */
+      letter-spacing: -0.96px;
+      text-transform: uppercase;
+    }
+    .programBox {
+      padding: 20px 0px;
+      flex-wrap: wrap;
+      .box {
+        min-width: 48%;
+        max-width: 48%;
+        text-align: center;
+        min-height: 188px;
+        margin: 10px 0px;
+        &:last-child {
+          margin: 0px auto;
+        }
+      }
+    }
+  }
+}

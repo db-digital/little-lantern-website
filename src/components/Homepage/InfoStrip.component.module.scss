@@ -33,3 +33,34 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+    background: #edecff;
+    padding: 20px 10px;
+
+    .boxContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      .box {
+        flex: 1 1 calc(50% - 10px);
+        text-align: center;
+        display: block;
+        padding: 20px 0px;
+        .iconBox {
+          display: block;
+          width: 90px;
+          margin: 0px auto;
+        }
+        .text {
+          display: block;
+          font-size: 14px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

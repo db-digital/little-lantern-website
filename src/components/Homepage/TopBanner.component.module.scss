@@ -42,6 +42,7 @@
           font-family: "Chillax", sans-serif;
           font-weight: 700;
           padding: 10px 20px;
+          font-size: 16px;
           text-decoration: none;
           transition: transform 0.3s ease-in-out;
           border: 1.5px solid #f57a3e;
@@ -63,6 +64,7 @@
           transition: transform 0.3s ease-in-out;
           border: 1.5px solid #fff;
           margin-left: 20px;
+          font-size: 16px;
           &:hover {
             background: #f57a3e;
             border: 1.5px solid #f57a3e;
@@ -78,6 +80,54 @@
         img {
           max-width: 100%;
           display: block;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    .bannerBox {
+      display: block;
+      .leftBox {
+        display: block;
+        max-width: 100%;
+        padding: 20px 10px;
+        .mainTitle {
+          font-size: 32px;
+          line-height: 32px;
+          text-align: center;
+        }
+
+        .subTitle {
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 21px;
+          text-align: center;
+          padding: 10px 0px;
+        }
+        .btn {
+          display: flex;
+          justify-content: center;
+          padding: 10px 0px;
+          .orangeCta {
+            padding: 10px;
+          }
+          .whiteCta {
+            padding: 10px;
+          }
+        }
+      }
+      .rightBox {
+        display: block;
+        .imgBox {
+          display: block;
+          img {
+            max-width: 100%;
+            display: block;
+          }
         }
       }
     }
