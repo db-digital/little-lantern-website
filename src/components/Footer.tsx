@@ -25,8 +25,13 @@ const Footer: React.FC = () => {
               <Link to="/our-space">Our Space</Link>
             </li>
             <li>
+              <Link to="/why-us">Why US</Link>
+            </li>
+
+            <li>
               <Link to="/programs">Programs</Link>
             </li>
+
             <li>
               <Link to="/learning">Learning</Link>
             </li>
@@ -35,6 +40,18 @@ const Footer: React.FC = () => {
             </li>
             <li>
               <Link to="/activity">Activity hub</Link>
+            </li>
+            <li>
+              <Link to="/work-with-us">Work with us</Link>
+            </li>
+            <li>
+              <Link to="/contact-us">Contact Us</Link>
+            </li>
+            <li className={styles.desktopHide}>
+              <Link to="/privacy-policy">Privacy Policy</Link>
+            </li>
+            <li className={styles.desktopHide}>
+              <Link to="/terms-of-use">Terms of Use</Link>
             </li>
           </ul>
         </nav>
@@ -89,7 +106,43 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
+        <div className={styles.addressBoxMobile}>
+          <p>
+            <strong>Address</strong>
+          </p>
+          <p>
+            Little Lantern - Early Learning Center <br />
+            170, Harish Mukherjee Road, Kolkata - 700026
+            <br />
+            +91 89100 06463
+            <br />
+            info@littlelantern.in
+          </p>
+        </div>
+
         <div className={styles.copyright}>
+          <ul className={styles.socialShareBox}>
+            <li>
+              <Link to="/" target="_blank">
+                <img src={faceBookIcon} alt="facebook" />
+              </Link>
+            </li>
+            <li>
+              <Link to="/" target="_blank">
+                <img src={instagramIcon} alt="instagram" />
+              </Link>
+            </li>
+            <li>
+              <Link to="/" target="_blank">
+                <img src={twitterIcon} alt="Twitter" />
+              </Link>
+            </li>
+            <li>
+              <Link to="/" target="_blank">
+                <img src={youtubeIcon} alt="Youtube" />
+              </Link>
+            </li>
+          </ul>
           <p>© 2025 Little Lanterns Preschool. All rights reserved.</p>
         </div>
       </div>
