@@ -21,6 +21,21 @@
         font-size: 16px;
         font-weight: 400;
         color: #222c5d;
+        font-family: "Jost";
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    .wrapper {
+      .marquee {
+        li {
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 400;
+        }
       }
     }
   }
