@@ -1,14 +1,20 @@
 import React from "react";
-import Style from "./Topstrip.module.scss";
+import styles from "./Topstrip.module.scss";
+
+const messages = [
+  "ADMISSION OPEN FOR BATCH OF 2025-26",
+  "ADMISSION OPEN FOR BATCH OF 2025-26",
+  "ADMISSION OPEN FOR BATCH OF 2025-26",
+];
 
 const TopStrip: React.FC = () => {
   return (
-    <div className={Style.container}>
-      <div className={Style.wrapper}>
-        <ul>
-          <li>ADMISSION OPEN FOR BATCH OF 2025-26</li>
-          <li>ADMISSION OPEN FOR BATCH OF 2025-26</li>
-          <li>ADMISSION OPEN FOR BATCH OF 2025-26</li>
+    <div className={styles.container}>
+      <div className={styles.wrapper}>
+        <ul className={styles.marquee}>
+          {messages.concat(messages).map((msg, index) => (
+            <li key={index}>{msg}</li>
+          ))}
         </ul>
       </div>
     </div>
