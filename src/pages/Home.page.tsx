@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Home.module.scss";
+import styles from "./HomePage.module.scss";
 import TopBannerComponent from "../components/Homepage/TopBanner.component";
 import InfoStripComponent from "../components/Homepage/InfoStrip.component";
 import OurSpaceComponent from "../components/Homepage/OurSpace.component";
@@ -10,7 +10,6 @@ import LearningsComponent from "../components/Homepage/Learnings.component";
 import ActivityHubComponent from "../components/Homepage/ActivityHub.component";
 import AdmissionComponent from "../components/Homepage/Admission.component";
 import InstagramFeedComponent from "../components/Homepage/InstagramFeed.component";
-import ExplorePlayLearnComponent from "../components/Homepage/ExplorePlayLearn.component";
 
 const HomePage: React.FC = () => {
   return (
@@ -25,7 +24,6 @@ const HomePage: React.FC = () => {
       <ActivityHubComponent />
       <AdmissionComponent />
       <InstagramFeedComponent />
-      <ExplorePlayLearnComponent />
     </div>
   );
 };
