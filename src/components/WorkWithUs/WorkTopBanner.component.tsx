@@ -17,7 +17,7 @@ const WorkTopBannerComponent: React.FC = () => {
             </h2>
             <div className={styles.description}>careers at little lantern</div>
             <div className={styles.btn}>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact-us">Contact Us</Link>
             </div>
           </div>
         </div>

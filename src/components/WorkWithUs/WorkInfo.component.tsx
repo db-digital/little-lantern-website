@@ -23,11 +23,13 @@ const WorkInfoComponent: React.FC = () => {
               <br /> <br />
               If you’re eager to contribute to a meaningful cause and be part of
               a dynamic, child-centered team, we’d love to hear from you. Please
-              fill out the form below to apply. Let’s light up the path to a
-              brighter future for children together!
+              fill out the form below to apply.
+              <br />
+              Let’s light up the path to a brighter future for children
+              together!
             </div>
             <div className={styles.btn}>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact-us">Contact Us</Link>
             </div>
           </div>
         </div>

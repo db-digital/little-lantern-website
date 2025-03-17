@@ -10,6 +10,8 @@
   .tabs {
     display: flex;
     align-items: flex-end;
+    height: 100px;
+    margin-top: 20px;
     .tabBtn {
       border: none;
       font-family: "Chillax";
@@ -29,6 +31,7 @@
       cursor: pointer;
       max-width: 150px;
       height: 100px;
+      transition: height 0.3s ease-in-out;
     }
     .tabBtn.active {
       height: 120px;
@@ -100,6 +103,7 @@
 @media (max-width: 768px) {
   .container {
     .tabs {
+      height: 60px;
       .tabBtn {
         font-family: "Nunito Sans", sans-serif;
         font-size: 13px;

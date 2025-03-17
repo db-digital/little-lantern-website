@@ -29,7 +29,7 @@
   .bannerBox {
     display: flex;
     align-items: center;
-    background: #7771d7;
+    align-items: stretch;
     border-radius: 20px;
     .bannerImg {
       display: block;
@@ -38,11 +38,14 @@
       img {
         display: block;
         width: 100%;
+        border-radius: 20px 0px 0px 20px;
       }
     }
     .bannerContent {
       display: block;
       padding: 0px 40px;
+      border-radius: 0px 20px 20px 0px;
+      background: #7771d7;
       .box {
         display: flex;
         align-items: center;
@@ -78,6 +81,51 @@
         }
         &:last-child {
           border: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 50px 0px 0px 0px;
+    .title {
+      display: none;
+    }
+    .description {
+      display: none;
+    }
+
+    .bannerBox {
+      flex-direction: column;
+      border-radius: 0px;
+      .bannerImg {
+        display: block;
+        min-width: 100%;
+        max-width: 100%;
+        img {
+          border-radius: 0;
+        }
+      }
+      .bannerContent {
+        padding: 0px 20px;
+        border-radius: 0px;
+        .box {
+          padding: 14px 0;
+          .iconImg {
+            max-width: 44px;
+            min-width: 44px;
+          }
+          .itemContent {
+            display: block;
+            span {
+              font-size: 20px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
         }
       }
     }
