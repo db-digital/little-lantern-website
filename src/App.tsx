@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import ExplorePlayLearnComponent from "./components/Homepage/ExplorePlayLearn.component";
 import ContactPage from "./pages/Contact.page";
 import ProgramsPage from "./pages/Programs.page";
+import WorkWithUsPage from "./pages/WorkWithUs.page";
 const App: React.FC = () => {
   return (
     <Router>
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/programs" element={<ProgramsPage />} />
+          <Route path="/work-with-us" element={<WorkWithUsPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
