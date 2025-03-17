@@ -166,6 +166,9 @@
               line-height: 120%;
               padding: 8px 0px;
             }
+            a:hover {
+              border-bottom: none;
+            }
           }
           li.desktopHide {
             display: block;

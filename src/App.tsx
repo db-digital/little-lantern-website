@@ -8,6 +8,7 @@ import "./App.scss";
 import NotFound from "./pages/NotFound";
 import ExplorePlayLearnComponent from "./components/Homepage/ExplorePlayLearn.component";
 import ContactPage from "./pages/Contact.page";
+import ProgramsPage from "./pages/Programs.page";
 const App: React.FC = () => {
   return (
     <Router>
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
+          <Route path="/programs" element={<ProgramsPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
