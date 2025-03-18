@@ -76,13 +76,25 @@ const HeaderDesktop: React.FC = () => {
               </ul>
             </li>
             <li>
-              <Link to="/our-space">Our Space</Link>
+              <Link
+                to="/our-space"
+                className={
+                  location.pathname === "/our-space" ? styles.active : ""
+                }
+              >
+                Our Space
+              </Link>
             </li>
             <li
               onMouseEnter={() => handleMouseEnter("programs")}
               onMouseLeave={() => handleMouseLeave("programs")}
             >
-              <Link to="/programs">
+              <Link
+                to="/programs"
+                className={
+                  location.pathname === "/programs" ? styles.active : ""
+                }
+              >
                 Programs
                 <span
                   className={arrowActive["programs"] ? styles.rotateArrow : ""}
@@ -120,7 +132,12 @@ const HeaderDesktop: React.FC = () => {
               onMouseEnter={() => handleMouseEnter("learning")}
               onMouseLeave={() => handleMouseLeave("learning")}
             >
-              <Link to="/learning">
+              <Link
+                to="/learning"
+                className={
+                  location.pathname === "/learning" ? styles.active : ""
+                }
+              >
                 Learning
                 <span
                   className={arrowActive["learning"] ? styles.rotateArrow : ""}
@@ -143,10 +160,24 @@ const HeaderDesktop: React.FC = () => {
               </ul>
             </li>
             <li>
-              <Link to="/admissions">Admissions</Link>
+              <Link
+                to="/admissions"
+                className={
+                  location.pathname === "/admissions" ? styles.active : ""
+                }
+              >
+                Admissions
+              </Link>
             </li>
             <li>
-              <Link to="/activity">Activity hub</Link>
+              <Link
+                to="/activity"
+                className={
+                  location.pathname === "/activity" ? styles.active : ""
+                }
+              >
+                Activity hub
+              </Link>
             </li>
           </ul>
           <Link className={styles.applyBtn} to="/">
