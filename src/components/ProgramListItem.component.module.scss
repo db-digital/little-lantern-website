@@ -77,3 +77,61 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    padding-bottom: 120px;
+    .iconBox {
+      position: absolute;
+      bottom: 0px;
+      right: 0;
+      left: inherit;
+      max-width: 120px;
+    }
+    .imageBox {
+      right: 0;
+      max-width: 100%;
+      width: 100%;
+      left: 0;
+      align-items: center;
+      position: relative;
+      top: 0;
+      margin-top: -120px;
+      img {
+        display: block;
+        width: 100%;
+        margin: 0px auto;
+      }
+    }
+    .mainTitle {
+      font-size: 32px;
+    }
+    .ageGroup {
+      strong {
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 15px;
+      }
+      span {
+        font-size: 15px;
+      }
+    }
+    .duration {
+      strong {
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 15px;
+      }
+      span {
+        font-size: 15px;
+      }
+    }
+    .content {
+      p {
+        font-size: 14px;
+      }
+    }
+    &:last-child {
+      padding-bottom: 20px;
+    }
+  }
+}
