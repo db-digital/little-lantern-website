@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./pages/Home.page";
@@ -13,17 +13,17 @@ import WorkWithUsPage from "./pages/WorkWithUs.page";
 import ProgramOverviewPage from "./pages/ProgramOverview.page";
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/little-lantern-website">
       <Header />
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/about" element={<AboutPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/programs" element={<ProgramsPage />} />
           <Route path="/work-with-us" element={<WorkWithUsPage />} />
           <Route path="/overview" element={<ProgramOverviewPage />} />
-          <Route path="*" element={<NotFound />} /> */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <ExplorePlayLearnComponent />
