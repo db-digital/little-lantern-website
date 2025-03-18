@@ -5,7 +5,7 @@ import MissionImage from "../../assets/images/our-mission-01.png";
 
 const MissionPhilosophyComponent: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="mission">
       <div className={styles.wrapper}>
         <div className={styles.missionVisionBox}>
           <div className={styles.imgBox}>

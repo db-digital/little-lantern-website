@@ -66,13 +66,13 @@ const HeaderMobileComponent: React.FC = () => {
               }`}
             >
               <li>
-                <Link to="/mission-philosophy">Mission & Philosophy</Link>
+                <Link to="/about#mission">Mission & Philosophy</Link>
               </li>
               <li>
-                <Link to="/the-lantern-difference">The Lantern Difference</Link>
+                <Link to="/about#difference">The Lantern Difference</Link>
               </li>
               <li>
-                <Link to="/team">Team</Link>
+                <Link to="/about#team">Team</Link>
               </li>
             </ul>
           </li>

@@ -86,7 +86,7 @@ const dataJson = [
 
 const TheLanternDifferenceComponent: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="difference">
       <div className={styles.wrapper}>
         <h2 className={styles.mainTitle}>
           THE LANTERN <br /> DIFFERENCE

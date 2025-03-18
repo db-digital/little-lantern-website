@@ -12,7 +12,7 @@ const OurFounderComponent: React.FC = () => {
   const isMobile = useIsMobile();
   const envIcon = isMobile ? EnvelopIconMobile : EnvelopIcon;
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="team">
       <div className={styles.envIcon}>
         <img src={envIcon} alt="" />
       </div>
