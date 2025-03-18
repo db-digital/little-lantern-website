@@ -115,11 +115,21 @@
       .box {
         min-width: 48%;
         max-width: 48%;
+        font-size: 18px;
         text-align: center;
         min-height: 188px;
         margin: 10px 0px;
+        padding: 30px 15px;
+        text-align: left;
         &:last-child {
           margin: 0px auto;
+        }
+        h3 {
+          color: #fff;
+          font-size: 18px;
+        }
+        h3::after {
+          width: 100%;
         }
       }
     }
