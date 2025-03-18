@@ -3,7 +3,7 @@ import styles from "./Tabs.component.module.scss";
 import { Link } from "react-router-dom";
 
 export type Tab = {
-  id: string;
+  id: number;
   label: string;
   background: string;
   color: string;
@@ -25,8 +25,8 @@ interface IProps {
 }
 
 const CustomTabs: React.FC<IProps> = ({ tabs }) => {
-  const [activeTab, setActiveTab] = useState<string>(tabs[0].id);
-  const handleTabClick = (id: string) => {
+  const [activeTab, setActiveTab] = useState<number>(tabs[0].id);
+  const handleTabClick = (id: number) => {
     setActiveTab(id);
   };
 

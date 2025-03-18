@@ -24,6 +24,7 @@ const ProgramListItemComponent: React.FC<IProps> = ({ programsData }) => {
         programsData.map((item) => (
           <div
             className={styles.container}
+            id={`program-${item.id}`}
             key={item.id}
             style={{ background: item.background }}
           >

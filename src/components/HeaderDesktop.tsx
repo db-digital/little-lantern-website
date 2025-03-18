@@ -103,19 +103,19 @@ const HeaderDesktop: React.FC = () => {
                   <Link to="/overview">Overview</Link>
                 </li>
                 <li>
-                  <Link to="/parent-toddler">Parent Toddler</Link>
+                  <Link to="/overview#program-1">Parent Toddler</Link>
                 </li>
                 <li>
-                  <Link to="/toddler">Toddler</Link>
+                  <Link to="/overview#program-2">Toddler</Link>
                 </li>
                 <li>
-                  <Link to="/playgroup">Playgroup</Link>
+                  <Link to="/overview#program-3">Playgroup</Link>
                 </li>
                 <li>
-                  <Link to="/nursery">Nursery</Link>
+                  <Link to="/overview#program-4">Nursery</Link>
                 </li>
                 <li>
-                  <Link to="/kg1">KG1</Link>
+                  <Link to="/overview#program-5">KG1</Link>
                 </li>
               </ul>
             </li>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./ProgramOverview.page.module.scss";
 import HeroImg from "../assets/images/overview-hero-image.png";
 import OverviewOne from "../assets/images/overview-01.png";
@@ -10,6 +10,7 @@ import NurseryIcon from "../assets/images/program-nursery-icon.png";
 import PlaygroupIcon from "../assets/images/program-playgroup-icon.png";
 import ToddlerIcon from "../assets/images/program-toddler-icon.png";
 import ParentToddlerIcon from "../assets/images/program-parent-toddler-icon.png";
+import { useLocation } from "react-router-dom";
 import ProgramListItemComponent, {
   IPrograms,
 } from "../components/ProgramListItem.component";
@@ -159,6 +160,18 @@ const programsData: IPrograms[] = [
 ];
 
 const ProgramOverviewPage: React.FC = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+          window.history.replaceState(null, "", window.location.pathname);
+        }, 100);
+      }
+    }
+  }, [location]);
   return (
     <div className={styles.container}>
       <div className={styles.heroImg}>

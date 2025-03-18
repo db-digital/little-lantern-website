@@ -12,11 +12,10 @@ import tabGraphicThree from "../assets/images/program-tab-graphic-03.png";
 import tabGraphicFour from "../assets/images/program-tab-graphic-04.png";
 import tabGraphicFive from "../assets/images/program-tab-graphic-05.png";
 import WhatCanYouExpectComponent from "../components/ProgramsPage/WhatCanYouExpect.component";
-import useIsMobile from "../hooks/useIsMobile";
 
 const tabData: Tab[] = [
   {
-    id: "tab1",
+    id: 1,
     color: "#7771D7",
     background: "#EDECFF",
     label: "Parent Toddler",
@@ -27,14 +26,14 @@ const tabData: Tab[] = [
       schedule: "Duration: 2 hours, Twice a week, 9 - 11 am",
       description:
         "A twice-weekly program fostering early development through play, music, and bonding activities.",
-      url: "/",
+      url: "/overview#program-1",
       color: "#7771D7",
       background: "#EDECFF",
       graphic: tabGraphicOne,
     },
   },
   {
-    id: "tab2",
+    id: 2,
     color: "#F57A3E",
     background: "#FFE8DD",
     label: "Toddler",
@@ -45,14 +44,14 @@ const tabData: Tab[] = [
       schedule: "Duration: 2 hours 15 mins, Mon - Fri , 8:45 - 11 am",
       description:
         "A gentle introduction to structured learning, promoting independence and confidence.",
-      url: "/",
+      url: "/overview#program-2",
       color: "#F57A3E",
       background: "#FFE8DD",
       graphic: tabGraphicTwo,
     },
   },
   {
-    id: "tab3",
+    id: 3,
     color: "#06B3DB",
     background: "#E8FBFF",
     label: "Playgroup",
@@ -63,14 +62,14 @@ const tabData: Tab[] = [
       schedule: "Duration: 2.5 hours, Mon -Fri, 8:30 - 11 am",
       description:
         "A balance of free play, guided activities, and foundational skill-building.",
-      url: "/",
+      url: "/overview#program-3",
       color: "#06B3DB",
       background: "#E8FBFF",
       graphic: tabGraphicThree,
     },
   },
   {
-    id: "tab4",
+    id: 4,
     color: "#F57A3E",
     background: "#FFE8DD",
     label: "Nursery",
@@ -81,14 +80,14 @@ const tabData: Tab[] = [
       schedule: "Duration: 3 hours 15 mins, Mon -Fri , 8:15 - 11:30 am",
       description:
         "A stimulating curriculum focusing on creativity, problem-solving, and early literacy.",
-      url: "/",
+      url: "/overview#program-4",
       color: "#F57A3E",
       background: "#FFE8DD",
       graphic: tabGraphicFour,
     },
   },
   {
-    id: "tab5",
+    id: 5,
     color: "#7771D7",
     background: "#EDECFF",
     label: "KG1",
@@ -99,7 +98,7 @@ const tabData: Tab[] = [
       schedule: "Duration: 3.5 hours, Mon -Fri,  8 - 11:30 am",
       description:
         "A dynamic kindergarten program preparing children for school success through inquiry-based learning and exploration.",
-      url: "/",
+      url: "/overview#program-5",
       color: "#7771D7",
       background: "#EDECFF",
       graphic: tabGraphicFive,
@@ -107,7 +106,6 @@ const tabData: Tab[] = [
   },
 ];
 const ProgramsPage: React.FC = () => {
-  const isMobile = useIsMobile();
   return (
     <div className={styles.container}>
       <h2 className={styles.mainTitle}>Our Programs</h2>
