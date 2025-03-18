@@ -15,8 +15,8 @@ const OurProgramsComponents: React.FC = () => {
         <h2 className={styles.mainTitle}>Our programs</h2>
         <div className={styles.programBox}>
           <Link to="/" className={styles.box} style={{ background: "#7771D7" }}>
-            <h3>Parent-Toddler</h3>
-            <p>Age: 12 Months+</p>
+            <h3>Parent Toddler</h3>
+            <p>12+ months</p>
             <span className={styles.arrow}>
               <img src={arrowLink} alt="" />
             </span>
@@ -26,7 +26,7 @@ const OurProgramsComponents: React.FC = () => {
           </Link>
           <Link to="/" className={styles.box} style={{ background: "#F289B7" }}>
             <h3>Toddler</h3>
-            <p>Age: 18+ months+</p>
+            <p>18+ months</p>
             <span className={styles.arrow}>
               <img src={arrowLink} alt="" />
             </span>
@@ -36,7 +36,7 @@ const OurProgramsComponents: React.FC = () => {
           </Link>
           <Link to="/" className={styles.box} style={{ background: "#06B3DB" }}>
             <h3>Playgroup</h3>
-            <p>Age: 2-3 Years</p>
+            <p>2-3 years</p>
             <span className={styles.arrow}>
               <img src={arrowLink} alt="" />
             </span>
@@ -46,7 +46,7 @@ const OurProgramsComponents: React.FC = () => {
           </Link>
           <Link to="/" className={styles.box} style={{ background: "#F289B7" }}>
             <h3>Nursery</h3>
-            <p>Age: 3-4 Years+</p>
+            <p>3-4 years</p>
             <span className={styles.arrow}>
               <img src={arrowLink} alt="" />
             </span>
@@ -55,8 +55,8 @@ const OurProgramsComponents: React.FC = () => {
             </div>
           </Link>
           <Link to="/" className={styles.box} style={{ background: "#7771D7" }}>
-            <h3>KG1</h3>
-            <p>Age: 4-5 Years</p>
+            <h3>KG 1</h3>
+            <p>4-5 years</p>
             <span className={styles.arrow}>
               <img src={arrowLink} alt="" />
             </span>

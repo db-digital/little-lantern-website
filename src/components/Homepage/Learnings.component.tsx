@@ -8,7 +8,7 @@ const LearningsComponent: React.FC = () => {
       <div className={styles.wrapper}>
         <div className={styles.learningBox}>
           <div className={styles.leftBox}>
-            <h2 className={styles.mainTitle}>Learnings</h2>
+            <h2 className={styles.mainTitle}>Learning</h2>
             <p className={styles.description}>
               Inspired by Finland's Educare approach, our play-based curriculum
               blends learning and care to spark curiosity, creativity, and
