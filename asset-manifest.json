@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/little-lantern-website/static/css/main.0da69a0b.css",
+    "main.css": "/little-lantern-website/static/css/main.a6723864.css",
     "main.js": "/little-lantern-website/static/js/main.71c57752.js",
     "static/media/video-bg-full-01.png": "/little-lantern-website/static/media/video-bg-full-01.0f8a7b828f5e74bb5d68.png",
     "static/media/our-space-slider-01.png": "/little-lantern-website/static/media/our-space-slider-01.34ad8691d8f057c7fd7e.png",
@@ -22,11 +22,11 @@
     "static/media/arrow-link.svg": "/little-lantern-website/static/media/arrow-link.c8b6d79063fa3de477de12c27b61fbdf.svg",
     "static/media/menu-bar.svg": "/little-lantern-website/static/media/menu-bar.7cae1669122501d15ac46a76c480ee18.svg",
     "static/media/dropdown-arrow.svg": "/little-lantern-website/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
-    "main.0da69a0b.css.map": "/little-lantern-website/static/css/main.0da69a0b.css.map",
+    "main.a6723864.css.map": "/little-lantern-website/static/css/main.a6723864.css.map",
     "main.71c57752.js.map": "/little-lantern-website/static/js/main.71c57752.js.map"
   },
   "entrypoints": [
-    "static/css/main.0da69a0b.css",
+    "static/css/main.a6723864.css",
     "static/js/main.71c57752.js"
   ]
 }
