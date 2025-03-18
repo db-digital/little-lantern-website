@@ -49,8 +49,8 @@ const programsData: IPrograms[] = [
   {
     id: 2,
     title: "Toddler",
-    ageGroup: "2 hours 15 mins, Mon - Fri , 8:45 - 11 am",
-    duration: "18+ months",
+    ageGroup: "18+ months",
+    duration: "2 hours 15 mins, Mon - Fri , 8:45 - 11 am",
     content: (
       <>
         <p>
@@ -76,8 +76,8 @@ const programsData: IPrograms[] = [
   {
     id: 3,
     title: "Playgroup",
-    ageGroup: "2.5 hours, Mon -Fri, 8:30 - 11 am",
-    duration: "2-3 years",
+    ageGroup: "2-3 years",
+    duration: "2.5 hours, Mon -Fri, 8:30 - 11 am",
     content: (
       <>
         <p>
@@ -104,8 +104,8 @@ const programsData: IPrograms[] = [
   {
     id: 4,
     title: "Nursery",
-    ageGroup: "3 hours 15 mins, Mon -Fri , 8:15 - 11:30 am",
-    duration: "3-4 years",
+    ageGroup: "3-4 years",
+    duration: "3 hours 15 mins, Mon -Fri , 8:15 - 11:30 am",
     content: (
       <>
         <p>
@@ -133,8 +133,8 @@ const programsData: IPrograms[] = [
   {
     id: 5,
     title: "KG 1",
-    ageGroup: "3.5 hours, Mon -Fri,  8 - 11:30 am",
-    duration: "4-5 years",
+    ageGroup: "4-5 years",
+    duration: "3.5 hours, Mon -Fri,  8 - 11:30 am",
     content: (
       <>
         <p>

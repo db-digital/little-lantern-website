@@ -13,16 +13,17 @@ import WorkWithUsPage from "./pages/WorkWithUs.page";
 import ProgramOverviewPage from "./pages/ProgramOverview.page";
 const App: React.FC = () => {
   return (
-    <Router basename="/little-lantern-website">
+    // <Router basename="/little-lantern-website"> For Deployment
+    <Router>
       <Header />
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/about" element={<AboutPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/programs" element={<ProgramsPage />} />
           <Route path="/work-with-us" element={<WorkWithUsPage />} />
-          <Route path="/overview" element={<ProgramOverviewPage />} /> */}
+          <Route path="/overview" element={<ProgramOverviewPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
