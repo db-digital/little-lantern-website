@@ -20,3 +20,19 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    .mainTitle {
+      font-size: 32px;
+      padding: 30px;
+    }
+    .imageWrapper {
+      display: block;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}

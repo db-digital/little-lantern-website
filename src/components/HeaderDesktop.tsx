@@ -6,7 +6,6 @@ import { Link, useLocation } from "react-router-dom";
 
 const HeaderDesktop: React.FC = () => {
   const location = useLocation();
-  console.log(location.pathname);
   const [headerHeight, setHeaderHeight] = useState(0);
   const [arrowActive, setArrowActive] = useState<{ [key: string]: boolean }>(
     {}

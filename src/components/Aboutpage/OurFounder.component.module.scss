@@ -64,6 +64,9 @@
             line-height: 24px;
           }
         }
+        .sign {
+          display: none;
+        }
       }
 
       .founderContent {
@@ -90,6 +93,73 @@
           font-style: normal;
           font-weight: 400;
           line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 90px;
+    margin-top: 80px;
+    padding-bottom: 40px;
+    .envIcon {
+      display: block;
+      margin: 0px;
+      position: absolute;
+      left: 0;
+      top: -160px;
+      width: 100%;
+    }
+    .founderBox {
+      .founderInfo {
+        margin: 0px 30px;
+        flex-direction: column;
+        .stepIcon {
+          display: none;
+        }
+        .stepTree {
+          display: none;
+        }
+        .founderPick {
+          order: 2;
+          padding: 20px;
+          img {
+            display: block;
+          }
+          p {
+            display: block;
+            padding: 26px 10px;
+            strong {
+              display: block;
+            }
+            span {
+              font-size: 16px;
+            }
+          }
+          .sign {
+            display: block;
+            img {
+              max-width: 82px;
+              min-width: 82px;
+            }
+          }
+        }
+
+        .founderContent {
+          border-left: none;
+          padding: 20px;
+          order: 1;
+          h2 {
+            font-size: 32px;
+          }
+          p {
+            font-size: 16px;
+          }
+          .sign {
+            display: none;
+          }
         }
       }
     }

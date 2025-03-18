@@ -5,12 +5,16 @@ import StepIcon from "../../assets/images/founder-step-icon.png";
 import StepLineIcon from "../../assets/images/founder-3-icon.png";
 import FounderImage from "../../assets/images/founder-img.png";
 import SigneIcon from "../../assets/images/sign-icon.png";
+import EnvelopIconMobile from "../../assets/images/founder-env-icon.png";
+import useIsMobile from "../../hooks/useIsMobile";
 
 const OurFounderComponent: React.FC = () => {
+  const isMobile = useIsMobile();
+  const envIcon = isMobile ? EnvelopIconMobile : EnvelopIcon;
   return (
     <div className={styles.container}>
       <div className={styles.envIcon}>
-        <img src={EnvelopIcon} alt="" />
+        <img src={envIcon} alt="" />
       </div>
       <div className={styles.founderBox}>
         <div className={styles.founderInfo}>
@@ -20,6 +24,9 @@ const OurFounderComponent: React.FC = () => {
               <strong>Shubh Agarwal Sonthalia</strong>
               <span>Founder, Little Lattern</span>
             </p>
+            <div className={styles.sign}>
+              <img src={SigneIcon} alt="" />
+            </div>
           </div>
           <div className={styles.founderContent}>
             <h2>our founder</h2>

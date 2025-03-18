@@ -13,7 +13,7 @@ const MissionPhilosophyComponent: React.FC = () => {
           </div>
           <div className={styles.textBox}>
             <h3 className={styles.mainTitle} style={{ color: "#F57A3E" }}>
-              our <br /> mission
+              our <br className={styles.hideMobile} /> mission
             </h3>
             <p className={styles.description}>
               Every child is the hero of their own learning journey. Our vision
@@ -26,10 +26,10 @@ const MissionPhilosophyComponent: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className={styles.missionVisionBox}>
+        <div className={`${styles.missionVisionBox} ${styles.topBottom}`}>
           <div className={styles.textBox}>
             <h3 className={styles.mainTitle} style={{ color: "#06B3DB" }}>
-              our <br /> Philosophy
+              our <br className={styles.hideMobile} /> Philosophy
             </h3>
             <p className={styles.description}>
               We honor that each child learns in their own unique way. Our
