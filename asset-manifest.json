@@ -1,19 +1,38 @@
 {
   "files": {
-    "main.css": "/little-lantern-website/static/css/main.a6723864.css",
-    "main.js": "/little-lantern-website/static/js/main.71c57752.js",
+    "main.css": "/little-lantern-website/static/css/main.246eee18.css",
+    "main.js": "/little-lantern-website/static/js/main.ba73944d.js",
     "static/media/video-bg-full-01.png": "/little-lantern-website/static/media/video-bg-full-01.0f8a7b828f5e74bb5d68.png",
-    "static/media/our-space-slider-01.png": "/little-lantern-website/static/media/our-space-slider-01.34ad8691d8f057c7fd7e.png",
+    "static/media/hero-image-about-01.jpg": "/little-lantern-website/static/media/hero-image-about-01.b48cdc1e08dd41c58d3f.jpg",
+    "static/media/slider-4-3.jpg": "/little-lantern-website/static/media/slider-4-3.1d2d568cc6ed875e729e.jpg",
+    "static/media/slider-4-5.jpg": "/little-lantern-website/static/media/slider-4-5.a8f2e7e38a692099fe0e.jpg",
+    "static/media/slider-4-2.jpg": "/little-lantern-website/static/media/slider-4-2.7d6cc00af83e3f6a6aba.jpg",
+    "static/media/slider-4-11.jpg": "/little-lantern-website/static/media/slider-4-11.e32773d9f378505944bf.jpg",
+    "static/media/slider-4-4.jpg": "/little-lantern-website/static/media/slider-4-4.77c3f8e06cffb47c09f5.jpg",
+    "static/media/slider-4-12.jpg": "/little-lantern-website/static/media/slider-4-12.6a6a80f569f7e0198b03.jpg",
+    "static/media/slider-4-9.jpg": "/little-lantern-website/static/media/slider-4-9.996f5013387293899e03.jpg",
+    "static/media/slider-4-1.jpg": "/little-lantern-website/static/media/slider-4-1.4fd482bbc9a4e166dd1a.jpg",
+    "static/media/slider-4-7.jpg": "/little-lantern-website/static/media/slider-4-7.d263f15db27fe31ef098.jpg",
+    "static/media/slider-4-10.jpg": "/little-lantern-website/static/media/slider-4-10.f6e418f4b089b1b84568.jpg",
+    "static/media/slider-4-13.jpg": "/little-lantern-website/static/media/slider-4-13.311932731bf71fb95ee7.jpg",
+    "static/media/slider-4-8.jpg": "/little-lantern-website/static/media/slider-4-8.9d8fb665115aeb1d3a85.jpg",
     "static/media/explore-kids-img.png": "/little-lantern-website/static/media/explore-kids-img.6a8317e5bfa1b968acd3.png",
     "static/media/home-page-girl.png": "/little-lantern-website/static/media/home-page-girl.51e39851526f0435270e.png",
+    "static/media/slider-4-6.jpg": "/little-lantern-website/static/media/slider-4-6.44935d90ecbb2a6400be.jpg",
+    "static/media/our-mission-01.png": "/little-lantern-website/static/media/our-mission-01.e55852eaa450bde7bb83.png",
+    "static/media/about-philosphy-01.png": "/little-lantern-website/static/media/about-philosphy-01.737fe809d7b3bf82aec1.png",
     "static/media/hub-boy-img.png": "/little-lantern-website/static/media/hub-boy-img.6b85b9274764ae258f32.png",
     "static/media/hub-girl-img.png": "/little-lantern-website/static/media/hub-girl-img.554ec849466a9b0b47b4.png",
     "static/media/gir-flying-img.png": "/little-lantern-website/static/media/gir-flying-img.f27a23547038af0f37d6.png",
     "static/media/smiling-girl.png": "/little-lantern-website/static/media/smiling-girl.7b3af8548fb0fa4710ff.png",
     "static/media/little-boy-with-hands.png": "/little-lantern-website/static/media/little-boy-with-hands.15820e8eb3c1b02b46f5.png",
     "static/media/insta-feed-01.png": "/little-lantern-website/static/media/insta-feed-01.bab05b5118b9a55125e2.png",
+    "static/media/founder-img.png": "/little-lantern-website/static/media/founder-img.40aed6f6b87e8a320a0b.png",
     "static/media/little-boy.png": "/little-lantern-website/static/media/little-boy.e602f12b4a500cbf084f.png",
+    "static/media/envelop-icon.png": "/little-lantern-website/static/media/envelop-icon.644ebaa6324d185fb06b.png",
+    "static/media/founder-env-icon.png": "/little-lantern-website/static/media/founder-env-icon.271a4274afda549fd9ab.png",
     "static/media/collaboration-icon.svg": "/little-lantern-website/static/media/collaboration-icon.79a87641a478753f12ff258fa79a65e7.svg",
+    "static/media/logo-blue.svg": "/little-lantern-website/static/media/logo-blue.6c517128b6d30362f229f2f51afe3074.svg",
     "static/media/logo.svg": "/little-lantern-website/static/media/logo.10709622b880b2c3ed6ce7134a1d07b1.svg",
     "static/media/expriment-icon.svg": "/little-lantern-website/static/media/expriment-icon.53e540df938a2fdbe29a64287d849a2a.svg",
     "static/media/env-icon.svg": "/little-lantern-website/static/media/env-icon.36f7f15cbd7dd1102a933678e56b0e5a.svg",
@@ -22,11 +41,11 @@
     "static/media/arrow-link.svg": "/little-lantern-website/static/media/arrow-link.c8b6d79063fa3de477de12c27b61fbdf.svg",
     "static/media/menu-bar.svg": "/little-lantern-website/static/media/menu-bar.7cae1669122501d15ac46a76c480ee18.svg",
     "static/media/dropdown-arrow.svg": "/little-lantern-website/static/media/dropdown-arrow.788cb183f4ec32e771368374b0362e17.svg",
-    "main.a6723864.css.map": "/little-lantern-website/static/css/main.a6723864.css.map",
-    "main.71c57752.js.map": "/little-lantern-website/static/js/main.71c57752.js.map"
+    "main.246eee18.css.map": "/little-lantern-website/static/css/main.246eee18.css.map",
+    "main.ba73944d.js.map": "/little-lantern-website/static/js/main.ba73944d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6723864.css",
-    "static/js/main.71c57752.js"
+    "static/css/main.246eee18.css",
+    "static/js/main.ba73944d.js"
   ]
 }
