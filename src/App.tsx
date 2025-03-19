@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./pages/Home.page";
@@ -15,8 +15,8 @@ import AdmissionsPage from "./pages/Admissions.page";
 import ActivityHubPage from "./pages/ActivityHub.page";
 const App: React.FC = () => {
   return (
-    <Router basename="/little-lantern-website">
-      {/* <Router> */}
+    // <Router basename="/little-lantern-website"> For Deployment
+    <Router>
       <Header />
       <main>
         <Routes>
