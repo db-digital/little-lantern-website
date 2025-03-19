@@ -11,6 +11,8 @@ import ContactPage from "./pages/Contact.page";
 import ProgramsPage from "./pages/Programs.page";
 import WorkWithUsPage from "./pages/WorkWithUs.page";
 import ProgramOverviewPage from "./pages/ProgramOverview.page";
+import AdmissionsPage from "./pages/Admissions.page";
+import ActivityHubPage from "./pages/ActivityHub.page";
 const App: React.FC = () => {
   return (
     // <Router basename="/little-lantern-website"> For Deployment
@@ -24,6 +26,8 @@ const App: React.FC = () => {
           <Route path="/programs" element={<ProgramsPage />} />
           <Route path="/work-with-us" element={<WorkWithUsPage />} />
           <Route path="/overview" element={<ProgramOverviewPage />} />
+          <Route path="/admissions" element={<AdmissionsPage />} />
+          <Route path="/activity" element={<ActivityHubPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
